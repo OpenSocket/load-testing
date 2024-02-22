@@ -4,8 +4,10 @@ import httpx
 import time
 
 NUM_REQUESTS = 1000
-NUM_THREADS = 30
-URL = "https://rest.ably.io/time"
+NUM_THREADS = 50
+# URL = "http://rest.ably.io/time"
+# URL = "http://localhost:3000/"
+URL = "http://timeapi.io/api/Time/current/zone?timeZone=Asia/Kolkata"
 
 print("URL:          ", URL)
 print("NUM_REQUESTS: ", NUM_REQUESTS)
